@@ -1,26 +1,31 @@
 {{#each hits}}
 
-<li>
+<li class="list-item">
 
   <div class="photo-card">
-    <img src="{{webformatURL}}" alt="" width="300" height="300" />
+    <img src="{{webformatURL}}" data-img="{{largeImageURL}}" alt="" width="280" height="280" />
 
     <div class="stats">
       <p class="stats-item">
         <i class="material-icons">thumb_up</i>
-        {{likes}}
+        <span class="stats-text"> {{likes}}</span>
+
+
       </p>
       <p class="stats-item">
-        <i class="material-icons">visibility</i>
-        {{views}}
+        <i class="material-icons"> visibility</i>
+        <span class="stats-text">{{views}}</span>
       </p>
       <p class="stats-item">
         <i class="material-icons">comment</i>
-        {{comments}}
+        <span class="stats-text">{{comments}}</span>
+
       </p>
       <p class="stats-item">
         <i class="material-icons">cloud_download</i>
-        {{downloads}}
+        <span class="stats-text">{{downloads}}</span>
+
+
       </p>
     </div>
   </div>
