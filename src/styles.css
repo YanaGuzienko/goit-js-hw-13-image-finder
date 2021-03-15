@@ -16,5 +16,25 @@ body {
   /*
    * CSS image reference example.
    */
-  background-image: url('./images/bg-pattern.png');
 }
+/* ul {
+  list-style: none;
+}
+
+.grid {
+  display: inline-grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+
+
+}
+
+li {
+
+  background: gold;
+}
+li:not(:nth-child(4n)) {
+  margin-right: 10px;
+} */
